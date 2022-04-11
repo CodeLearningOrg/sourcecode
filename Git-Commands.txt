@@ -34,3 +34,4 @@ git remote add upstream (url).
 git remote add origin(url).
 
 new info
+3.new master comment
