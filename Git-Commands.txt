@@ -1,0 +1,8 @@
+ssh-keygen -t rsa -b 4096 -C hpavan006@gmail.com
+/c/Users/Pavan/.ssh/id_rsa
+
+/c/Users/Pavan/.ssh/id_rsa.pub
+
+
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
