@@ -6,3 +6,30 @@ ssh-keygen -t rsa -b 4096 -C hpavan006@gmail.com
 
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
+
+
+git remote add origin git@github.com:Code-decode-learning/git-demo.git 
+ add url for remote repository in which your local repo will be pushed . 
+
+git remote -v
+ Verify new remote url.
+
+$ git push –u origin master 
+ Pushes the changes in your local repository up to the remote repository you specified as the origin
+ 
+Git and github tutorial for beginners that we cover here uses concept of forking created at github.
+git commands will be same for forked one and for organisational level repositories. 
+
+ For forked repos :
+ 
+ Go to your .config file in .git and check upstream and origin.
+
+Upstream should be from where u can take pull. Means your main repo of organisation.
+
+Origin must be your forked where you will push your code and raise a pull request so that on approval those changes can be merged to upstream branch or organisation.
+
+
+git remote add upstream (url).
+
+git remote add origin(url).
+
